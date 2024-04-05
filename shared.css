@@ -8,6 +8,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
+    position: absolute;
+    width: 100%;
+    top: 0; /* not required since header is the first element but undertanding we write */
+    left: 0;/* not required since header is the first element but undertanding we write */
+    box-sizing: border-box;
 
 }
 
@@ -23,6 +28,21 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+header a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+
+}
+
+header a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
 }
 
 #page-logo a {
