@@ -16,11 +16,14 @@ main li {
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
+    overflow:hidden; /*visible is default ... image fit borders of container*/
+
 }
 
 main li img {
   width: 300px;
   height: 280px;
+  object-fit: cover; /* cover image to the container */
 }
 
 .item-content {
