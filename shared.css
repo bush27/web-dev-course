@@ -40,7 +40,7 @@ header a {
 
 }
 
-header a:hover {
+header nav a:hover { /* previousy header a:hover ... nav added to remove hover effect from page logo */
     color: rgb(77, 77, 77);
     background-color: rgb(255, 251, 0);
 }
