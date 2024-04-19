@@ -11,6 +11,12 @@ ul {
   width: 800px;
   margin: 10px auto;
   padding: 10px;
+  display: grid;
+  /* grid-template-columns: 400px 400px; */
+  /* grid-template-columns: 1fr 200px; */
+  /* grid-template-columns: 2fr 1fr; */
+  grid-template-columns: 1fr 1fr;
+  gap: 100px 200px; /* define gap between rows and columns */
 }
 
 li {
