@@ -9,16 +9,19 @@ a {
 }
 
 #main-header {
-    height: 80px;
+    /*height: 80px; */
+    height: 5rem; /* be dynamic than fixed value */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(29, 26, 24);
-    padding: 0 20px;
+    /* padding: 0 20px; */
+    padding: 0 5%;
 }
 
 #logo {
-    font-size: 24px;
+    /* font-size: 24px;  */
+    font-size: 1.5rem; /* 16px is default value */
     font-weight: bold;
     color: rgb(238, 168, 80);
     text-transform: uppercase;
@@ -32,12 +35,14 @@ a {
 }
 
 #main-header li {
-    margin: 0 16px;
+    /* margin: 0 16px; */
+    margin: 0 1rem;
 }
 
 #main-header nav a {
     color: rgb(185, 131, 31);
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
 }
 
 #main-header nav a:hover {
@@ -69,6 +74,7 @@ main h1 {
     background-color: rgb(228, 206, 182);
     border-radius: 6px;
     overflow: hidden; /* round corner around image */
+    list-style: none;
 }
 
 .food-item img {
