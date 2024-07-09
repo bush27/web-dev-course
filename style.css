@@ -102,19 +102,13 @@ main h1 {
     /*font-size: 24px; */
     /*font-size: 200%; */
 }
-/*
-h2 {
-    /* font-size: 100%; */
-    /* font-size: 2em; /* alternative to % value 2em = 200%  and it is with respect to parent element*/
-    font-size: 2rem; /* this is with respect to root element  and depend on browser setting of user */
-/*
-} 
-*/ 
+
 .btn {
     background-color: rgb(228, 157, 44);
     color: white;
     border-radius: 4px;
-    padding: 8px 24px;
+    /*padding: 8px 24px; */
+    padding: 0.5rem 1.5rem;
 }
 
 .btn:hover {
