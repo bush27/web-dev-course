@@ -89,7 +89,9 @@ main h1 {
 }
 
 h2 {
-    font-size: 100%;
+    /* font-size: 100%; */
+    /* font-size: 2em; /* alternative to % value 2em = 200%  and it is with respect to parent element*/ 
+    font-size: 2rem; /* this is with respect to root element  and depend on browser setting of user*/
 
 }
 
