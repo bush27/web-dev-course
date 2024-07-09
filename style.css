@@ -83,7 +83,10 @@ main h1 {
 }
 
 .food-item-content {
-    padding: 16px;
+    /*padding: 16px;*/
+   /*  padding: 10%; /* wrt width of parent element */
+   padding: 0.1em; /* unlike width em and rem refers to the font size */
+
     text-align: center;
     font-size: 24px;
 }
