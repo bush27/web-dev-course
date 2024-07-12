@@ -116,8 +116,21 @@ main h1 {
 
 }
 
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) */ /* ( changed 768px to rem by dividing default value of 16px) */
+@media (max-width: 48rem) {
+
+    #main-header nav {
+        display: none;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
     #latest-products ul {
         grid-template-columns: 100%;
     }
+
+    
 }
